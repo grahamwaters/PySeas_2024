@@ -68,7 +68,7 @@ def create_gallery():
         print("No images available for gallery.")
 
 if __name__ == "__main__":
-    schedule_interval = 3600  # Fetch images every hour
+    schedule_interval = 3600/4  # Fetch images every 15 minutes
     while True:
         print("Updating gallery...")
         create_gallery()
